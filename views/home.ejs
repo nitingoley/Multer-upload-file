@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploading </title>
+    <style>
+        body{
+            font-family: 'Sevillana', cursive;
+        }
+        h1{
+             margin-top: 50px;
+            text-align: center;
+        }
+        .go1{
+            text-align: center;
+        }
+        .go2{
+
+            text-align: center;
+        }
+          button{
+            width: 100px;
+            background-color: crimson;
+            color: aliceblue;
+            cursor: pointer;
+          }
+          button:hover{
+            background-color: blue;
+            color: wheat;
+          }
+</style>
+</head>
+<body>
+      <h1>Upload your Cv Here</h1>
+      <br><br>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <div class="go1">
+         <input type="file" name="UploadCv" id="go1">
+        </div>
+         <br>
+         <div class="go2">
+         <button type="submit" id="go1">submit</button>
+        </div>
+      </form>
+</body>
+</html>
